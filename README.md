@@ -27,29 +27,29 @@ definition 3D LIDARs`_.
 [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) with ```rosdep``` installed.
 
 ##Building
-- install ROS Melodic Velodyne package
+1-install ROS Melodic Velodyne package
 ```
 sudo apt-get install ros-melodic-velodyne
 ```
-- change directory to catkin_ws (change the path according your strucutre)
+2-change directory to catkin_ws (change the path according your strucutre)
 ```
 cd ~/catking_ws/src
 ```
-- clone the repo to src directory.
-- change directory to catkin_ws
+3-clone the repo.
+4-change directory to catkin_ws
 ```
 cd ..
 ```
-- build using catkin make or catkin tool
-  * building using catkin make
+5-build using catkin make or catkin tool
+  *building using catkin make
   ```
   catkin_make
   ```
-  * building using catkin build
+  *building using catkin build
   ```
   catkin build velodyne
   ```
-- source the current workspace
+6-source the current workspace
 ```
 source devel/setup.bash
 ```
