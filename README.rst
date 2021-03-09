@@ -23,7 +23,7 @@ definition 3D LIDARs`_.
 
   Fortunately, velodyne pointcloud package does not depend on the underlying OS. Therefore, the binaries of Melodic velodyne driver package will be installed. Then velodyne point cloud package will be built from source (catkin tools) using the code in this repo.  
  
-##bDependencies
+## Dependencies
 [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) with ```rosdep``` installed.
 ---
 ## Building
