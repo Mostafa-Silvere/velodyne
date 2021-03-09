@@ -1,5 +1,4 @@
 # Velodyne package for ROS-melodic  
-========
 
 Velodyne_ is a collection of ROS_ packages supporting `Velodyne high
 definition 3D LIDARs`_.
@@ -24,7 +23,7 @@ definition 3D LIDARs`_.
   Fortunately, velodyne pointcloud package does not depend on the underlying OS. Therefore, the binaries of Melodic velodyne driver package will be installed. Then velodyne point cloud package will be built from source (catkin tools) using the code in this repo.  
  
 ## Dependencies
-[ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) with ```rosdep``` installed.
+  * [ROS Melodic](http://wiki.ros.org/melodic/Installation/Ubuntu) with ```rosdep``` installed.
 ---
 ## Building
 - install ROS Melodic Velodyne package
@@ -53,18 +52,3 @@ cd ..
 ```
 source devel/setup.bash
 ```
-
-
-
- 
- 
- 
-
-The current ``master`` branch works with ROS Kinetic, Jade, and
-Indigo.  It may work with Hydro and Groovy, but that has not been
-tested recently.  To build for Fuerte from source, check out the
-``rosbuild`` branch instead of ``master``.
-
-.. _ROS: http://www.ros.org
-.. _Velodyne: http://www.ros.org/wiki/velodyne
-.. _`Velodyne high definition 3D LIDARs`: http://www.velodynelidar.com/lidar/lidar.aspx
